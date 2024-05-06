@@ -1,0 +1,52 @@
+{
+  "expense_categories": [
+    {
+      "category": "Groceries",
+      "icon": "🍞"
+    },
+    {
+      "category": "Rent/Mortgage",
+      "icon": "🏠"
+    },
+    {
+      "category": "Utilities",
+      "icon": "💡"
+    },
+    {
+      "category": "Transportation",
+      "icon": "🚗"
+    },
+    {
+      "category": "Healthcare",
+      "icon": "⚕️"
+    },
+    {
+      "category": "Insurance",
+      "icon": "🛡️"
+    },
+    {
+      "category": "Dining Out",
+      "icon": "🍽️"
+    },
+    {
+      "category": "Entertainment",
+      "icon": "🎬"
+    },
+    {
+      "category": "Shopping",
+      "icon": "🛍️"
+    },
+    {
+      "category": "Travel",
+      "icon": "✈️"
+    },
+    {
+      "category": "Education",
+      "icon": "📚"
+    },
+    {
+      "category": "Savings",
+      "icon": "💰"
+    }
+  ]
+}

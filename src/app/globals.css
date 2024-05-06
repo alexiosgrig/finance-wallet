@@ -17,14 +17,14 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb)); /* Set background to the start color of the gradient */
 }
+
+/* Optionally, you can remove the linear-gradient background */
+body {
+  background: none !important;
+}
+
 
 @layer utilities {
   .text-balance {
