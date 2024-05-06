@@ -1,11 +1,9 @@
 'use client';
 import { selectUserDataIncome } from '@/redux/slices/userDataSlice';
 import { useSelector } from 'react-redux';
-import { Header } from '@/components/home/header/Header';
 import { SavingsBar } from '@/components/home/incomeBar/SavingsBar';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { ExpensesField } from '@/components/home/expensesField/ExpensesField';
 
 
 export default function Home() {
@@ -24,13 +22,7 @@ export default function Home() {
   return (
     <>
       {!isIncomeAvailable && (
-        <>
-          <Header />
           <SavingsBar />
-          <div className="flex flex-col items-center justify-center">
-            <ExpensesField />
-          </div>
-        </>
       )}
     </>
   );
